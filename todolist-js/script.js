@@ -20,5 +20,8 @@ input.addEventListener('keypress', function(event){
     }
 });
 
+const deleteBtn = document.createElement("button");
+deleteBtn.innerText = "❌";
+deleteBtn.classList.add("delete-btn");
 
 
